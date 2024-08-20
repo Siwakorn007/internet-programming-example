@@ -4,13 +4,15 @@ import { StudentComponent } from './student/student.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { TestComponent } from './test/test.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'student', component: StudentComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'login', component: LoginComponent }
+  { path: 'login', component: LoginComponent },
+  { path: 'test', component: TestComponent } 
 ];
 
 @NgModule({
